@@ -1,0 +1,11 @@
+# pycache
+__pycache__/
+
+
+# Pycharm Code files
+.idea/
+.idea/**
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!/vscode/settings.json
