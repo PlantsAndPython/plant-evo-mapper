@@ -34,11 +34,19 @@ We would suggest going through the Jupyter notebooks in the following order:
 The code is written for Python 3.8 and has been tested with the following package configuration:
 
 ```
-
+goatools==1.2.3
+json5==0.9.5
+kmapper==2.0.1
+matplotlib==3.4.3
+numpy==1.20.3
+pandas==1.3.3
+scikit-learn==1.0
+scipy==1.7.1
+seaborn==0.11.2
+statsmodels==0.12.2
 ```
 
-Most of these are standard data science packages that are well maintained and are backward and forward compatible. So the code should work with older or newer versions of the packages (although we haven't tested it).
-The only uncommon packages are `kmapper` and `goatools`. For further information and documentation for these packages, check the following links: [kepler mapper](https://kepler-mapper.scikit-tda.org/en/latest/), [goatools](https://pypi.org/project/goatools/).
+Most of these are standard python packages that are well maintained and are backward and forward compatible. So the code should work with older or newer versions of the packages (although we haven't tested it). The only uncommon packages are `kmapper` and `goatools`. For further information and documentation for these packages, check the following links: [kepler mapper](https://kepler-mapper.scikit-tda.org/en/latest/), [goatools](https://pypi.org/project/goatools/).
 
 <hr>
 
